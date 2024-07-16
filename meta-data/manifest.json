@@ -1,0 +1,12 @@
+{
+  "name": "hmd-cli-plugin-dagster",
+  "description": "Local NeuronSphere plugin to run Dagster",
+  "build": {},
+  "project_type": {
+    "name": "Python Library",
+    "facets": [
+      "default_repo",
+      "python_repo"
+    ]
+  }
+}

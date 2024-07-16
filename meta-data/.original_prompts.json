@@ -1,0 +1,13 @@
+{
+  "_org": "hmd",
+  "_repo_type": "lib-",
+  "short_name": "dagster",
+  "project_name": "hmd-cli-plugin-dagster",
+  "repo_name": "hmd-cli-plugin-dagster",
+  "description": "Local NeuronSphere plugin to run Dagster",
+  "_author": "Alex Burgoon",
+  "_author_email": "alex.burgoon@hmdlabs.io",
+  "__module_name": "hmd_cli_plugin_dagster",
+  "_template": "/tmp/tmpivyan8_d/hmd_cli_repo",
+  "_output_dir": "/home/aburg/hmd-public-examples/projects"
+}
