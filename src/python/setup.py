@@ -17,5 +17,20 @@ setup(
     license="unlicensed",
     packages=find_packages(),
     include_package_data=True,
+    package_data={"": ["data/*"]},
     install_requires=[],
+    entry_points={
+        "hmd_cli_neuronsphere.enabled": [
+            "dagster=hmd_cli_plugin_dagster.hmd_cli_plugin_dagster:enabled"
+        ],
+        "hmd_cli_neuronsphere.get_resources": [
+            "dagster=hmd_cli_plugin_dagster.hmd_cli_plugin_dagster:get_resources"
+        ],
+        "hmd_cli_neuronsphere.prepare_hmd_home": [
+            "dagster=hmd_cli_plugin_dagster.hmd_cli_plugin_dagster:prepare_hmd_home"
+        ],
+        "hmd_cli_neuronsphere.render_compose_yaml": [
+            "dagster=hmd_cli_plugin_dagster.hmd_cli_plugin_dagster:render_compose_yaml"
+        ],
+    },
 )

@@ -139,3 +139,9 @@ src/python/build
 
 target/
 **/__pycache__/**/*
+src/python/hmd_cli_plugin_dagster.egg-info/dependency_links.txt
+src/python/hmd_cli_plugin_dagster.egg-info/entry_points.txt
+src/python/hmd_cli_plugin_dagster.egg-info/PKG-INFO
+src/python/hmd_cli_plugin_dagster.egg-info/SOURCES.txt
+src/python/hmd_cli_plugin_dagster.egg-info/top_level.txt
+
